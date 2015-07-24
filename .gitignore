@@ -1,0 +1,21 @@
+# .gitignore
+
+############### node
+node_modules
+npm-debug.log
+
+############### JetBrains
+.idea
+
+############### Other folders
+bower_components
+development
+release
+tmp
+
+############### Other files
+*.zip
+*.out
+*.csv
+*.xml
+

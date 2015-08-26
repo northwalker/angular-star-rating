@@ -1,0 +1,23 @@
+/*
+ * For decorating font-awesome star
+ */
+
+.fa-star-o {
+  color: #FF7700;
+}
+
+.fa-star {
+  color: #FFDD00;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #FF7700;
+}
+
+.isReadonly > .fa-star-o {
+  color: #000000;
+}
+
+.isReadonly > .fa-star {
+  color: #DCDCDC;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000000;
+}

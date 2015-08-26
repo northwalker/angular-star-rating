@@ -1,0 +1,26 @@
+{
+  "name": "angular-star-rating",
+  "version": "0.0.1",
+  "homepage": "https://github.com/northwalker/angular-star-rating",
+  "authors": [
+    "Northwalker <northwalker@hotmail.com>"
+  ],
+  "description": "A star rating directive for AngularJs.",
+  "main": [
+    "./dist/main.js",
+    "./dist/main.css"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "angular": "*",
+    "font-awesome": "*"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

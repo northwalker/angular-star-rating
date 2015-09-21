@@ -4,29 +4,31 @@ A star rating directive for AngularJS.
 
 ## Examples
 
-- JSFiddle online [Demo Page](http://) 
-- via local browser /example/index.html 
- 
+- Online Demo (JSFiddle): [Demo Page](http://jsfiddle.net/st81gzj9/1/)
+- Local Browser: /example/index.html
+
 ## Requirements
 - Angular JS
-- Font Awesome (font of star)
-  
+- Font Awesome (*option*, font for star)
+
 ## Installation and Usage
 
   Adding dependency to your project
   ```js
   angular.module('your-module-name', ['angular-star-rating']);
   ```
-  
-  Add rating star decorated css, your can define yourself. 
+
+  Decorating the rating-star by css file `main.css`, your can define yourself.
   ```html
   <link rel="stylesheet" href="../dist/main.css">
   ```
-  set parameters
-  - maxValue
-  - ratingValue
-  - isReadonly
-  - changeOnHover
+
+  ## Options
+  Below are the parameters supported.
+  * **maxValue**
+  * **ratingValue**
+  * **isReadonly**
+  * **changeOnHover**
 
 ## License
 
@@ -34,4 +36,4 @@ A star rating directive for AngularJS.
 
 ## To do
 
-  bugs fix, gulp file, minify code 
+  bugs fix

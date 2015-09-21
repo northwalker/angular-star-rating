@@ -13,8 +13,8 @@
 <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
 
 
-<link rel="stylesheet" href="../dist/main.css">
-<script type="text/javascript" src="../dist/main.js"></script>
+<link rel="stylesheet" href="../dist/min/main.min.css">
+<script type="text/javascript" src="../dist/min/main.min.js"></script>
 <script type="text/javascript" src="./index.js"></script>
 
 
@@ -37,9 +37,11 @@
         <input type='checkbox' ng-model='changeOnHover'/> {{changeOnHover}}
       </p>
 
-      <p>Your rating value: {{ratingValue}}</p>
+      <p>Your rating value: {{ratingValue}} / {{maxValue}}</p>
 
-      <p>Max value: {{maxValue}}</p>
+      <p>
+        Max value: <input ng-model="maxValue" type="number" min="5" max="100"> (5~100 for test)
+      </p>
     </div>
   </div>
 </div>

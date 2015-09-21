@@ -33,8 +33,9 @@
   }
 
   function linkFunc(scope, element, attrs, ctrl) {
-    if (scope.max === undefined)
+    if (scope.max === undefined){
       scope.max = 5; // default
+    }
     console.log(scope.test);
     function renderValue() {
       scope.renderAry = [];
@@ -66,11 +67,18 @@
     };
 
     scope.$watch('value', function (newValue, oldValue) {
+      // console.log('oldValue -> newValue', oldValue, newValue);
       if (newValue) {
         renderValue();
       }
     });
 
+    scope.$watch('max', function (newValue, oldValue) {
+      // console.log('oldValue -> newValue', oldValue, newValue);
+      if (newValue) {
+        renderValue();
+      }
+    });
   }
 
 

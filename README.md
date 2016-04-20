@@ -23,7 +23,8 @@ A star rating directive for AngularJS.
   <link rel="stylesheet" href="../dist/main.css">
   ```
 
-  ## Options
+## Options
+
   Below are the parameters supported.
   * **maxValue**
   * **ratingValue**
